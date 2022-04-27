@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+#app {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#gradient {
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#code{
+  color: #fafafa;
+}
+
+.btn {
+    margin: 10px !important;
+}
+
+.postItem {
+    border: solid 1px green;
+    margin: 0 20% !important;
+    justify-content: space-between !important;
+    display: flex;
+    padding: 5px 10px !important;
+}
+h4, p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+input {
+    padding: 10px 10px !important;
+
+}
+
+.MuiInputBase-root{
+    margin-right: 10px !important;
+    margin-bottom: 5px !important;
+}
+
+.MuiFormControl-root {
+    width: 25% !important;
+}
+
+.form {
+    margin: 0 20% !important;
+    justify-content: space-between !important;
+    display: flex;
+    padding: 5px 10px !important;
+}
+
